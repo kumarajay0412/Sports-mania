@@ -1,0 +1,27 @@
+@import "../../../styles/variables.scss";
+
+.success-dialog-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: $primary !important;
+	justify-content: center;
+	.pi-check-circle {
+		color: $success;
+		font-size: 3rem !important;
+	}
+	h4 {
+		font-size: 1.2rem;
+		margin: 20px;
+	}
+	.smart-contract-address-container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 20px;
+		.pi-file {
+			color: $primary !important;
+			margin: 0 10px;
+		}
+	}
+}

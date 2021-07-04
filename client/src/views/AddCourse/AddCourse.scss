@@ -1,0 +1,83 @@
+@import "../../styles/variables.scss";
+.createAdmin-heading {
+	font-size: 1.5rem;
+}
+.p-field-radiobutton {
+	display: flex;
+	align-items: center;
+	margin-right: 40px;
+	label {
+		margin: 0 0 0 10px !important;
+	}
+}
+.p-radiobutton-checked {
+	.p-highlight {
+		border-color: $primary !important;
+		background: $primary !important;
+	}
+}
+.choose-super-radio-container {
+	width: 100%;
+	display: flex;
+	padding: 10px;
+}
+.create-btn-container {
+	display: flex;
+	justify-content: center;
+}
+.accept-warning-btn {
+	background: $primary !important;
+	border-radius: 200px;
+	border: 1px solid $primary !important;
+	margin: 0 5px;
+	transition: all 0.3s;
+}
+.accept-warning-btn:hover {
+	background: #fff !important;
+	color: $primary !important;
+}
+.decline-warning-btn {
+	background-color: #fff !important;
+	border: none !important;
+	border-radius: 200px;
+	color: $danger !important;
+	margin: 0 5px;
+}
+.decline-warning-btn:hover {
+	color: #fff !important;
+	background-color: $danger !important;
+}
+.warning-footer-container {
+	width: 100%;
+	margin: 20px 0;
+	padding: 0 20px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.pi-exclamation-triangle {
+	color: $danger;
+	margin: 0 20px;
+}
+.confirmation-content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	span {
+		font-size: 1.2rem;
+		font-weight: bold;
+	}
+}
+.bottom-bar {
+	display: flex;
+	width: 100%;
+	.left {
+		width: 50%;
+		display: flex;
+	}
+	.right {
+		width: 50%;
+		display: flex;
+		justify-content: flex-end;
+	}
+}

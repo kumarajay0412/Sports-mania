@@ -1,0 +1,9 @@
+@import "../../../styles/variables.scss";
+
+.p-calendar {
+	width: 100%;
+	input {
+		padding: 12.5px;
+		border-color: rgba($primary, 0.3) !important;
+	}
+}

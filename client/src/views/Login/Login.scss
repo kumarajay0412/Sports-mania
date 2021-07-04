@@ -1,0 +1,19 @@
+@import "../../styles/variables.scss";
+.mt-150 {
+	margin-top: 150px;
+}
+.mb-100 {
+	margin-bottom: 100px;
+}
+.error {
+	color: $danger;
+}
+.alert-container {
+	width: 75%;
+	margin: 20px auto;
+}
+small {
+	a {
+		font-weight: bold;
+	}
+}

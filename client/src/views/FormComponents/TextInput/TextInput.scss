@@ -1,0 +1,21 @@
+@import "../../../styles/variables.scss";
+
+.textInputForm {
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	justify-content: center;
+}
+
+.textInputForm-container {
+	width: 100%;
+}
+.textInputForm-label {
+	color: $primary;
+	font-size: 1rem;
+}
+.textInputForm-input {
+	padding: 25px 10px !important;
+	color: $primary !important;
+	border-color: rgba($primary, 0.3);
+}

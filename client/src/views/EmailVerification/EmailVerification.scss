@@ -1,0 +1,32 @@
+@import "../../styles/variables.scss";
+
+.email-ver {
+	height: 100vh;
+	overflow-y: auto;
+
+	&-title {
+		height: 65px;
+		display: flex;
+		align-items: center;
+		background-color: $gray-100;
+		padding: 0 2em;
+		position: fixed;
+		width: 100%;
+		top: 0;
+	}
+
+	&-body {
+		height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		color: $primary-light;
+
+		& a {
+			color: $primary;
+			font-weight: bold;
+			text-decoration: underline !important;
+		}
+	}
+}

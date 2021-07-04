@@ -1,0 +1,65 @@
+@import "../../styles/variables.scss";
+
+.register {
+	height: 100vh;
+	overflow-y: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	&-title {
+		height: 65px;
+		display: flex;
+		align-items: center;
+		background-color: $gray-100;
+		padding: 0 2em;
+		position: fixed;
+		width: 100%;
+		top: 0;
+	}
+
+	&-form {
+		padding-top: 130px;
+		max-width: 500px;
+		margin: auto;
+
+		&-title {
+			color: $primary-light;
+			text-align: center;
+		}
+	}
+
+	form {
+		width: 90%;
+		margin: 2em 1em;
+
+		& p,
+		& a {
+			color: $primary-light;
+			margin-top: 0.7em;
+		}
+
+		& a {
+			&:hover {
+				text-decoration: underline !important;
+			}
+		}
+	}
+
+	.error {
+		width: 100%;
+		margin-top: 50px;
+	}
+
+	.btn {
+		border: 1px solid $primary !important;
+		margin-top: 0.5em;
+
+		&:hover {
+			background-color: $primary !important;
+			color: #fff !important;
+			border: 1px solid $primary !important;
+		}
+	}
+}

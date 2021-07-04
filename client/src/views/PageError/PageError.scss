@@ -1,0 +1,27 @@
+@import "../../styles/variables.scss";
+
+.height-80 {
+	height: 80vh;
+}
+
+.title-text {
+	font-size: 15em;
+	font-weight: 700;
+	color: $primary;
+}
+
+.line {
+	height: 1px;
+	width: 75px;
+	background-color: $primary;
+}
+.pageError-container {
+	p,
+	h1 {
+		color: $primary;
+	}
+}
+
+p > a {
+	color: $secondary;
+}

@@ -1,0 +1,58 @@
+@import "../../styles/variables.scss";
+@import "../ViewUsers/ViewUsers.scss";
+.tab-container {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+.verify-radio-container {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 50px;
+	.p-field-radiobutton {
+		display: flex;
+		align-items: center;
+	}
+	label {
+		margin-bottom: 0;
+		margin-left: 10px;
+	}
+	h5 {
+		margin-bottom: 0;
+	}
+}
+.footer-container {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.verification-cancel-btn {
+	border-radius: 200px;
+	background-color: $white !important;
+	color: $danger !important;
+	border-color: $danger !important;
+	font-size: 1rem;
+}
+.verification-cancel-btn:hover {
+	background-color: $danger !important;
+	color: $white !important;
+}
+
+.verification-proceed-btn {
+	background-color: $theme-2 !important;
+	color: $white !important;
+	border-color: $theme-2 !important;
+	font-size: 1rem;
+	border-radius: 200px;
+}
+.verification-proceed-btn:hover {
+	background-color: $white !important;
+	color: $theme-2 !important;
+}
+.p-dialog-header-icons {
+	display: none !important;
+}
+.warning-verify {
+	font-weight: bold;
+	color: $danger;
+}

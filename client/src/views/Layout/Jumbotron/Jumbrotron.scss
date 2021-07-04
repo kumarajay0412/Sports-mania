@@ -1,0 +1,25 @@
+.jumbotron-container {
+	background: rgb(217, 237, 146);
+	background: linear-gradient(
+		90deg,
+		rgba(217, 237, 146, 1) 0%,
+		rgba(181, 228, 140, 1) 35%,
+		rgba(153, 217, 140, 1) 70%,
+		rgba(118, 200, 147, 1) 100%
+	);
+	padding: 175px 0px;
+	width: 100vw !important;
+	display: flex;
+	justify-content: center;
+	h1 {
+		font-size: 60px !important;
+	}
+}
+.semi {
+	top: -20px;
+	svg {
+		path {
+			fill: #fff;
+		}
+	}
+}
